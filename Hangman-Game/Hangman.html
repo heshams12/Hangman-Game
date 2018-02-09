@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <title>Hangman - Sports Version</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="header">HANGMAN</h1>
+            <img class="basketball" src="../Images/2-2-basketball-png-file.png" alt="basketball">
+            <img class="football" src="../Images/football-clipart-transparent-background-8.png" alt="football">
+            <img class="baseball" src="../Images/14523-illustration-of-a-baseball-pv.png" alt="baseball">
+            <img class="rugby" src="../Images/8-2-rugby-ball-png-hd.png" alt="rugby">
+            <img class="cricket" src="../Images/cricket-150561_640.png" alt="cricket">
+            <img class="hockey" src="../Images/hockey_PNG94.png" alt="hockey">
+            
+            <p class="paragraph">Please guess the appropriate sport!</p>
+            <p class="paragraph">You have 9 tries to get the word right otherwise you lose!</p>
+
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Word To Guess</h3>
+            </div>
+            <div class="panel-body">
+                <h2 id="wordToGuess">_ _ _ _ _ _ _ _</h2>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Letters Already Guessed:
+                <span id="numGuesses"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Wrong Guesses:
+                <span id="wrongGuesses"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Number Of Guesses Remaining:
+                <span id="remainGuesses">9</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Wins:
+                <span id="winCounter">0</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Losses:
+                <span id="lossCounter">0</span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
